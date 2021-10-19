@@ -35,4 +35,3 @@ CREATE TABLE rental.users
     CONSTRAINT users_pkey PRIMARY KEY (id)
 );
 
-##NOTE: For "id" columns in tables, we have to set datatype as "serial" while creating the table and remove all the sequences which will get created on their own when you run the code 
